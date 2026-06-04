@@ -54,7 +54,7 @@ Because the underlying network (Part 2) is segmented into isolated VLANs, this b
 | ------------ | --------------------------- | ----------------------- | --------------- | ------- |
 | **DC01**     | Domain Controller + DNS     | Windows Server 2022 Std | VLAN 10 (Main)  | `10.10.10.10` (static) |
 | **CLIENT01** | Domain client (same VLAN)   | Windows 11              | VLAN 10 (Main)  | DHCP |
-| **CLIENT02** | Domain client (cross-VLAN)  | Windows 11              | VLAN 20 (Guest) | `10.20.20.50` (static) |
+| **CLIENT02** | Domain client (cross-VLAN)  | Windows 11              | VLAN 20 (Guest) | DHCP |
 
 > The main rig itself stays unjoined — `CLIENT01` is a VM hosted on it, keeping the bare-metal machine and its data untouched.
 
