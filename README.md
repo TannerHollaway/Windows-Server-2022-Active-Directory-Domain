@@ -264,4 +264,4 @@ Two clients are domain members: **`CLIENT01`** (VM on VLAN 10, the straightforwa
 
 ## Next Steps
 
-**Part 4 (planned):** stand up a deliberately vulnerable, domain-joined VM for vulnerability scanning, remediation, and log-review practice (incident-response focus), and forward DC + client event logs to a SIEM for centralized detection and alerting.
+ Part 4 — [Domain Expansion & Security Instrumentation](https://github.com/TannerHollaway/Domain-Expansion-Security-Instrumentation)
